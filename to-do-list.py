@@ -1,9 +1,9 @@
 def show_menu():
     print("\nTo-Do List Manager")
-    print("1. Add Task")
-    print("2. Show Tasks")
-    print("3. Delete Task")
-    print("4. Exit")
+    print(" Add Task")
+    print(" Show Tasks")
+    print(" Delete Task")
+    print(" Exit")
 
 def add_task(task_list):
     task = input("Enter the new task: ")
