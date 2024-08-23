@@ -45,6 +45,6 @@ def main():
             print("Exiting the program.")
             break
         else:
-            print("Invalid choice. Please try again.")
+            print("Invalid choice. Please try again")
 
 main()
