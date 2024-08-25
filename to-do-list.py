@@ -34,7 +34,7 @@ def main():
     task_list = []
     while True:
         show_menu()
-        choice = input("Enter your choice: ")
+        choice = input("Enter your choice : ")
         if choice == "1":
             add_task(task_list)
         elif choice == "2":
@@ -42,7 +42,7 @@ def main():
         elif choice == "3":
             delete_task(task_list)
         elif choice == "4":
-            print("Exiting the program.")
+            print("Exiting the program")
             break
         else:
             print("Invalid choice. Please try again")
