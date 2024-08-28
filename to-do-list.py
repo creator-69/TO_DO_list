@@ -24,7 +24,7 @@ def delete_task(task_list):
         number = int(input("Enter the task number to delete: "))
         if 1 <= number <= len(task_list):
             removed_task = task_list.pop(number - 1)
-            print(f"Task '{removed_task}' deleted successfully!")
+            print(f"Task '{removed_task}' deleted successfully")
         else:
             print("Invalid task number.")
     except ValueError:
