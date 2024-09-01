@@ -21,7 +21,7 @@ def show_tasks(task_list):
 def delete_task(task_list):
     show_tasks(task_list)
     try:
-        number = int(input("Enter The task number to delete: "))
+        number = int(input("Enter tthe task number to delete: "))
         if 1 <= number <= len(task_list):
             removed_task = task_list.pop(number - 1)
             print(f"Task '{removed_task}' deleted successfully")
