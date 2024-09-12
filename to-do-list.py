@@ -26,7 +26,7 @@ def delete_task(task_list):
             removed_task = task_list.pop(number - 1)
             print(f"Task '{removed_task}' deleted successfully")
         else:
-            print("Invalid task number.")
+            print("Invasdas number.")
     except ValueError:
         print("Please enter a valid number.")
 
