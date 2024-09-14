@@ -26,7 +26,7 @@ def delete_task(task_list):
             removed_task = task_list.pop(number - 1)
             print(f"Task '{removed_task}' deleted successfully")
         else:
-            print("Invasdas number.")
+            print("Invasdas The number.")
     except ValueError:
         print("Please enter a valid number.")
 
@@ -42,7 +42,7 @@ def main():
         elif choice == "3":
             delete_task(task_list)
         elif choice == "4":
-            print("Exiting the program")
+            print("Exiting a program")
             break
         else:
             print("Invalid choice. Please try again")
